@@ -25,6 +25,15 @@ http://localhost:3012/console
 
 The public pages (`/`, `/features`, `/security`, `/institutions`, `/pricing`, `/contact`) are served by the same web app.
 
+## Tech stack
+
+| Area | Technologies |
+|------|--------------|
+| Frontend | `React`, `TypeScript`, `Vite`, `Ant Design Pro Components`, `Tailwind CSS`, `Zustand`, `Recharts`, `React Router` |
+| Backend | `NestJS`, `Express`, `RxJS`, `Multer`, `csv-parse` |
+| Database | `SQLite (better-sqlite3)` |
+| DevOps and tooling | `oxlint`, `ts-node` |
+
 ## Run
 
 Setup (once):
