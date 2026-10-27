@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <MarketingLayout>
       <h1 className="text-3xl font-semibold">Contact</h1>
-      <p className="mt-4 text-slate-400">Portfolio demo — form posts to your CRM in a real deployment.</p>
+      <p className="mt-4 text-slate-400">Demo app: this form does not send anything.</p>
       <form className="mt-8 max-w-md space-y-4">
         <input className="w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-sm" placeholder="Work email" />
         <input className="w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-sm" placeholder="Firm name" />

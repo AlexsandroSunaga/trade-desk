@@ -11,7 +11,7 @@ export default function PricingPage() {
   return (
     <MarketingLayout>
       <h1 className="text-3xl font-semibold">Pricing</h1>
-      <p className="mt-2 text-slate-400">Illustrative tiers for portfolio demos — wire to billing in production.</p>
+      <p className="mt-2 text-slate-400">Sample tiers for the demo. No billing is connected.</p>
       <div className="mt-10 grid gap-6 md:grid-cols-3">
         {tiers.map((t) => (
           <div key={t.name} className="rounded-2xl border border-slate-800 bg-slate-900/30 p-6">
