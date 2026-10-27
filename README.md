@@ -36,6 +36,8 @@ The public pages (`/`, `/features`, `/security`, `/institutions`, `/pricing`, `/
 
 ## Run
 
+On first start the API loads `nest-api/data/sample_trades.csv` (48 generated sample trades, January 2026) so the journal, analytics and P&L calendar are not empty. The numbers are made up for the demo.
+
 Setup (once):
 
 ```powershell

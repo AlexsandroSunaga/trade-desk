@@ -6,3 +6,8 @@ __pycache__/
 *.db
 .env
 .venv/
+
+# Sample CSV for the demo import is tracked on purpose
+!nest-api/data/
+nest-api/data/*
+!nest-api/data/sample_trades.csv
